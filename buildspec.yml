@@ -1,0 +1,17 @@
+version: 0.1
+
+phases:
+	install:
+		commands:
+			- echo installing apps
+	pre_build:
+		commands:
+			- echo install dependencies
+	build:
+		commands:
+			- echo building
+artifacts:
+	files:
+		-"**/*"
+	discard-paths: no
+	base-directory: build
