@@ -3,13 +3,13 @@ version: 0.1
 phases:
 	install:
 		commands:
-			- echo installing apps
+			- echo "installing apps"
 	pre_build:
 		commands:
-			- echo install dependencies
+			- echo "install dependencies"
 	build:
 		commands:
-			- echo building
+			- echo "building"
 artifacts:
 	files:
 		-"**/*"
